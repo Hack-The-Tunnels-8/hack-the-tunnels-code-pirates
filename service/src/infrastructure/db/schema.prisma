@@ -18,6 +18,8 @@ model Product {
   price       Float
   imageUrl    String?
   lineItems   LineItem[]
+  text String?
+  review Int?
 }
 
 model Order {
