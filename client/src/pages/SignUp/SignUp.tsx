@@ -21,9 +21,11 @@ function SignUp() {
         <label htmlFor ="fname">Password:</label>
         <input placeholder = "password" onChange = {(e) => setPassword(e.target.value)}></input>
       </div>
-      
-      
-      
+      <div>
+        <button onClick={() => console.log("Hello")}> {/*create(email, password, "User")*/}
+           Create a New User
+        </button>
+      </div>
 
     </Page>
   );
