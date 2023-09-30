@@ -35,7 +35,7 @@ function Login() {
         {message && <p>{message}</p>}
       </div>
       <div>
-        <input placeholder = "email" onChange = {() => console.log("test")}></input>
+        <input placeholder = "email" onChange = {(e) => setEmail(e.target.value)}></input>
       </div>
       <div>
         <input placeholder = "password"></input>
