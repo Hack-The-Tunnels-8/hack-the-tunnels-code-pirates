@@ -21,9 +21,9 @@ function SignUp() {
         <label htmlFor ="fname">Password:</label>
         <input placeholder = "password" onChange = {(e) => setPassword(e.target.value)}></input>
       </div>
-      <button onClick={() => create(email, password)}>
+      /*<button onClick={() => create(email, password)}>
           Login (as user set in code)
-      </button>
+      </button>*/
 
     </Page>
   );
