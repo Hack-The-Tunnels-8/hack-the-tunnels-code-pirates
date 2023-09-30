@@ -12,6 +12,7 @@ import {
   SignUp,
 } from "./pages";
 import { AccountProvider } from "./context";
+import NotFound  from "/workspaces/hack-the-tunnels-code-pirates/client/src/pages/NotFound.tsx"; //importing the 404 page from ./pages
 import "./index.scss";
 
 const router = createBrowserRouter([
@@ -45,7 +46,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <div>404</div>,
+    element: <NotFound />,
   },
 ]);
 
