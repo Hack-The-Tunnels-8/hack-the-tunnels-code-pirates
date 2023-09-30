@@ -18,7 +18,7 @@ To get the project working, you will need to have both the client and server run
 
 ```
 cd client
-```
+``` 
 
 2. Install client dependencies
 

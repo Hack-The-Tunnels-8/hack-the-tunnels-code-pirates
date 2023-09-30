@@ -6,6 +6,7 @@ import "./Login.style.scss";
 
 function Login() {
   const [message, setMessage] = useState(null);
+  const [email, setEmail] = useState("email");
   const { loggedIn, login } = useAccountContext();
   const navigate = useNavigate();
 
@@ -32,6 +33,12 @@ function Login() {
           Login (as user set in code)
         </button>
         {message && <p>{message}</p>}
+      </div>
+      <div>
+        <input placeholder = "email" onChange = {(e) => setEmail(e.target.value)}></input>
+      </div>
+      <div>
+        <input placeholder = "password"></input>
       </div>
     </Page>
   );
