@@ -22,9 +22,7 @@ function SignUp() {
         <input placeholder = "password" onChange = {(e) => setPassword(e.target.value)}></input>
       </div>
       
-      <button onClick={() => create(email, password)}>
-          Login (as user set in code)
-      </button>
+      
       
 
     </Page>
